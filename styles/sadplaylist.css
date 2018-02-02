@@ -1,0 +1,12 @@
+body{
+  font-family: Arial;
+}
+
+#content-area{
+  max-height: 350px;
+  overflow-y: scroll;
+}
+
+iframe{
+  width: 100%;
+}

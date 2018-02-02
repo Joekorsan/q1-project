@@ -1,0 +1,20 @@
+.move{
+  text-align: center;
+}
+
+.container{
+  margin: 0 auto;
+  border: 5px solid green;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+
+.container .row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.center{
+  margin: 0 auto;
+}
