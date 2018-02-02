@@ -1,7 +1,6 @@
-body{
-  font-family: Arial;
+footer{
+  padding: 20px;
 }
-
 #content-area{
   max-height: 350px;
   overflow-y: scroll;
@@ -9,4 +8,16 @@ body{
 
 iframe{
   width: 100%;
+}
+
+.z-thing{
+
+  margin-top: 2vh;
+  position: fixed;
+  width: 100%;
+  z-index: -5;
+}
+
+.row {
+  margin-top: 12vh;
 }

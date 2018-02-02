@@ -6,20 +6,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="../styles/happyPlaylist.css">
   </head>
-  <body>
-    <h1>im in the happy page</h1>
+  <body class="">
+
+    <nav>
+   <div class="nav-wrapper light-blue darken-4 z-depth-5 ">
+     <a href="#" class="brand-logo center">MuseThero</a>
+     <ul id="nav-mobile" class="left hide-on-med-and-down">
+
+       <li><a href="sadPlaylist.html">Sad place</a></li>
+       <li><a href="../index.html">Splash page</a></li>
+     </ul>
+   </div>
+ </nav>
+
+
+
+
+    <h1 class="center-align z-thing">Music</h1>
 
     <div class="row">
-       <div class="col s6 offset-s3 z-depth-5">
-         <div class="card">
+       <div class="col s6 offset-s3 z-depth-5 red darken-1">
+         <div class="card z-depth-5">
            <div class="card-image">
              <!-- <img src="../images/evolution.jpg"> -->
              <iframe width="560" height="315" src="https://www.youtube.com/embed/jZhQOvvV45w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-             
+             <!-- light-blue darken-4 -->
              <span class="card-title">Happy List</span>
            </div>
            <div class="card-content hoverable"  id="content-place">
-             <table class="bordered responsive-table">
+             <table class="bordered striped responsive-table">
                <thead>
                  <tr>
                    <th>Artist</th>
@@ -38,6 +53,14 @@
          </div>
        </div>
      </div>
+     <footer class="light-blue darken-3 z-depth-5">
+          <div>
+            <div>
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">Powered By Joe Sando</a>
+            </div>
+          </div>
+     </footer>
 
 
      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
