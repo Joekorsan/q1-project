@@ -25,9 +25,9 @@ let promiseArr = [];
 //   promiseArr.push(fetch(`http://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key=${apiKey}&mbid=${happyMusicArr[i]}&format=json`));
 // }
 
-for (let i = 0; i < happyMusicArr.length; i++) {
-  promiseArr.push(getTrack1());
-}
+// for (let i = 0; i < happyMusicArr.length; i++) {
+//   promiseArr.push(getTrack1());
+// }
 
 getTrack2().then(result => {
   console.log('result: ', result);
@@ -52,10 +52,10 @@ getTrack2().then(result => {
 // Promise.all(promiseArr)
 // .then(valuesArr => {
 //   let responseArray = []
-//   // for (let response of valuesArr) {
-//   //   //responseArray.push(response.json());
-//   //
-//   // }
+//   for (let response of valuesArr) {
+//     responseArray.push(response.json());
+//
+//   }
 //   console.log('valuesArr: ', valuesArr);
 //   Promise.all(responseArray).then(artists => {
 //     //console.log('artist: ',artists.name);
