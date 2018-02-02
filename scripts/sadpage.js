@@ -10,9 +10,9 @@ const oneMusicApikey = '98469c06f048091e3e22f7b824397095'
 
 
 
-let happyMusicArr =['8821d2ea-2854-44fc-b14f-007b507da034 ', '25d8de5e-3662-4ffd-8dea-511a696ac3e7','2f14c941-e61c-4e6d-8465-48dbbda0cac9',
-'cec593ff-0591-4cb4-abf2-42103e905e27','0dc4f937-ed9a-453e-bc9b-9cf669090012','4ee9425e-0be1-476f-b64b-94a7295b4b87','1938b0e1-0a66-429c-9592-20f32ad74627',
-'3e78afb0-8a3c-419a-8cac-6a592d9b83a8','7dcbc1be-4257-4d64-b915-045dfb23ae88','8685ccf1-c0a9-49f6-89ba-91780bf5d951']
+let happyMusicArr =['8821d2ea-2854-44fc-b14f-007b507da034 ', '25d8de5e-3662-4ffd-8dea-511a696ac3e7 ','2f14c941-e61c-4e6d-8465-48dbbda0cac9 ',
+'cec593ff-0591-4cb4-abf2-42103e905e27 ','0dc4f937-ed9a-453e-bc9b-9cf669090012 ','4ee9425e-0be1-476f-b64b-94a7295b4b87 ','1938b0e1-0a66-429c-9592-20f32ad74627 ',
+'3e78afb0-8a3c-419a-8cac-6a592d9b83a8 ','7dcbc1be-4257-4d64-b915-045dfb23ae88 ','8685ccf1-c0a9-49f6-89ba-91780bf5d951']
 
 
 let happyRes = document.querySelector('#happy-artist')
