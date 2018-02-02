@@ -1,17 +1,17 @@
-footer{
+footer {
   padding: 20px;
 }
-#content-area{
+
+#content-area {
   max-height: 350px;
   overflow-y: scroll;
 }
 
-iframe{
+iframe {
   width: 100%;
 }
 
-.z-thing{
-
+.z-thing {
   margin-top: 2vh;
   position: fixed;
   width: 100%;

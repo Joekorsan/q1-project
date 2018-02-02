@@ -1,20 +1,22 @@
-.move{
+.move {
   text-align: center;
 }
 
-.container{
+footer {
+  padding: 20px;
+}
+
+.container {
   margin: 0 auto;
-  
   padding: 10px;
   margin-bottom: 20px;
 }
 
-
-.container .row{
+.container .row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-.center{
+.center {
   margin: 0 auto;
 }
